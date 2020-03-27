@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
 import Header from "./Header";
+import App from "./App";
+import Footer from "./Footer";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <div>
     <Header />,
-    <App />
+    <App />,
+    <Footer />
   </div>,
   rootElement
 );
